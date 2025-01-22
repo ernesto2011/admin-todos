@@ -3,6 +3,7 @@ import Link from "next/link"
 import { CiLogout } from "react-icons/ci"
 import { SidebarItem } from "./SidebarItem";
 import { IoCalendarOutline, IoCheckboxOutline, IoListOutline } from "react-icons/io5";
+import { MdOutlineCookie } from "react-icons/md";
 
 const menuItems = [
   {
@@ -19,6 +20,11 @@ const menuItems = [
     path: "/dashboard/server-todos",
     icon: <IoListOutline size={30} />,
     text: "Server actions",
+  },
+  {
+    path: "/dashboard/cookies",
+    icon: <MdOutlineCookie size={30} />,
+    text: "Cookies",
   },
 ];
 export const Sidebar = () => {
