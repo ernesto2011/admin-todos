@@ -4,6 +4,7 @@ import { CiLogout } from "react-icons/ci"
 import { SidebarItem } from "./SidebarItem";
 import { IoCalendarOutline, IoCheckboxOutline, IoListOutline } from "react-icons/io5";
 import { MdOutlineCookie } from "react-icons/md";
+import { AiOutlineProduct } from "react-icons/ai";
 
 const menuItems = [
   {
@@ -26,6 +27,11 @@ const menuItems = [
     icon: <MdOutlineCookie size={30} />,
     text: "Cookies",
   },
+  {
+    path: "/dashboard/products",
+    icon: <AiOutlineProduct size={30} />,
+    text: "Productos",
+  }
 ];
 export const Sidebar = () => {
   return (
