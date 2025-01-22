@@ -38,8 +38,8 @@ export const ProductCard = ({id, name, price, rating, image}:Props) => {
            </div>
 
           {/* Rating Number */}
-          <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
-            {rating}
+          <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">
+            {rating.toFixed(2)}
           </span>
         </div>
 
