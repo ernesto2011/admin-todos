@@ -9,29 +9,34 @@ import { AiOutlineProduct } from "react-icons/ai";
 const menuItems = [
   {
     path: "/dashboard",
-    icon: <IoCalendarOutline size={30} />,
+    icon: <IoCalendarOutline size={24} />,
     text: "Dashboard",
   },
   {
     path: "/dashboard/rest-todos",
-    icon: <IoCheckboxOutline size={30} />,
+    icon: <IoCheckboxOutline size={24} />,
     text: "Rest todos",
   },
   {
     path: "/dashboard/server-todos",
-    icon: <IoListOutline size={30} />,
+    icon: <IoListOutline size={24} />,
     text: "Server actions",
   },
   {
     path: "/dashboard/cookies",
-    icon: <MdOutlineCookie size={30} />,
+    icon: <MdOutlineCookie size={24} />,
     text: "Cookies",
   },
   {
     path: "/dashboard/products",
-    icon: <AiOutlineProduct size={30} />,
+    icon: <AiOutlineProduct size={24} />,
     text: "Productos",
-  }
+  },
+  {
+    path: "/dashboard/wonderpush",
+    icon: <IoListOutline size={30} />,
+    text: "Notifications",
+  },
 ];
 export const Sidebar = () => {
   return (
