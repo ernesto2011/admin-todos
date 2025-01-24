@@ -20,7 +20,7 @@ export const TabBar = ({tabOptions=[1,2,3,4], currentTab= 1}:Props) => {
     }
   return (
     <div
-      className={`grid grid-cols-${tabOptions.length}
+      className={`grid grid-cols-5
       w-full space-x-2 rounded-xl bg-gray-200 p-2`}
     >
       {tabOptions.map((tab, index) => (
